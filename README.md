@@ -8,8 +8,7 @@ A mobile-first medication management UI built with React. Designed with accessib
 
 MedRemind helps users track their daily medications, stay consistent with their doses, and never miss a refill. The design prioritises low-friction interactions: checking off a dose takes one tap, the progress ring gives an instant visual summary, and refill alerts surface before it's too late.
 
-**Live demo →** *(add Vercel link here)*
-
+https://medremind-omega.vercel.app/
 ---
 
 ## Design Decisions
@@ -55,7 +54,7 @@ npm install
 npm run dev
 ```
 
-Open https://vercel.com/joy-sangs-projects/medremind in your browser.
+Open https://medremind-omega.vercel.app/ in your browser.
 
 ---
 

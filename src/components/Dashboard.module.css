@@ -1,0 +1,31 @@
+.page { padding: 0 0 24px; animation: fadeUp 0.4s ease both; }
+.header { display: flex; align-items: flex-start; justify-content: space-between; padding: 48px 24px 16px; }
+.greeting { font-size: 13px; color: var(--text-hint); font-weight: 400; margin-bottom: 2px; letter-spacing: 0.02em; }
+.date { font-family: var(--font-display); font-size: 24px; font-weight: 600; color: var(--text-primary); letter-spacing: -0.02em; }
+.addBtn { width: 40px; height: 40px; border-radius: 50%; background: var(--text-primary); color: #fff; font-size: 22px; font-weight: 300; display: flex; align-items: center; justify-content: center; margin-top: 4px; transition: transform 0.15s, background 0.15s; flex-shrink: 0; }
+.addBtn:hover { transform: scale(1.08); background: #333; }
+.weekStrip { display: flex; justify-content: space-between; padding: 0 20px 20px; gap: 4px; }
+.dayPip { display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 8px 6px; border-radius: var(--radius-sm); flex: 1; transition: background 0.15s; }
+.dayPipActive { background: var(--text-primary); }
+.dayLabel { font-size: 10px; font-weight: 500; color: var(--text-hint); text-transform: uppercase; letter-spacing: 0.06em; }
+.dayPipActive .dayLabel { color: rgba(255,255,255,0.6); }
+.dayNum { font-size: 14px; font-weight: 500; color: var(--text-secondary); }
+.dayPipActive .dayNum { color: #fff; }
+.progressCard { margin: 0 20px 16px; background: var(--bg-card); border-radius: var(--radius-lg); border: 0.5px solid var(--border); padding: 20px; animation: fadeUp 0.4s ease both; }
+.progressTop { display: flex; align-items: center; justify-content: space-between; }
+.progressLabel { font-size: 12px; color: var(--text-hint); font-weight: 400; margin-bottom: 4px; letter-spacing: 0.03em; }
+.progressCount { font-size: 32px; font-family: var(--font-display); }
+.progressTaken { color: var(--text-primary); font-weight: 600; }
+.progressTotal { color: var(--text-hint); font-weight: 400; }
+.ringWrap { position: relative; display: inline-flex; }
+.ringPct { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 500; color: var(--text-primary); }
+.allDoneBar { margin-top: 14px; padding-top: 14px; border-top: 0.5px solid var(--border); display: flex; align-items: center; justify-content: space-between; font-size: 13px; color: var(--green); font-weight: 500; }
+.alertBox { margin: 0 20px 14px; background: var(--amber-light); border: 0.5px solid rgba(186,117,23,0.2); border-radius: var(--radius-md); padding: 12px 14px; display: flex; align-items: flex-start; gap: 10px; }
+.alertIcon { font-size: 16px; margin-top: 1px; }
+.alertTitle { font-size: 13px; font-weight: 500; color: var(--amber); margin-bottom: 1px; }
+.alertText { font-size: 12px; color: #854F0B; }
+.streakRow { display: flex; gap: 8px; padding: 0 20px 20px; overflow-x: auto; scrollbar-width: none; }
+.streakRow::-webkit-scrollbar { display: none; }
+.section { padding: 0 20px; }
+.sectionTitle { font-family: var(--font-display); font-size: 16px; font-weight: 600; color: var(--text-primary); margin-bottom: 12px; letter-spacing: -0.01em; }
+.cardList { display: flex; flex-direction: column; gap: 10px; }

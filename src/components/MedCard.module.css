@@ -1,0 +1,25 @@
+.card { background: var(--bg-card); border: 0.5px solid var(--border); border-radius: var(--radius-md); overflow: hidden; animation: fadeUp 0.4s ease both; transition: border-color 0.2s; }
+.card:hover { border-color: var(--border-md); }
+.cardDone { background: var(--bg-surface); }
+.cardMain { display: flex; align-items: center; gap: 12px; padding: 14px 16px 10px; cursor: pointer; user-select: none; }
+.colorDot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+.info { flex: 1; min-width: 0; }
+.nameRow { display: flex; align-items: baseline; gap: 6px; margin-bottom: 5px; }
+.name { font-size: 15px; font-weight: 500; color: var(--text-primary); font-family: var(--font-display); }
+.dosage { font-size: 12px; color: var(--text-hint); font-weight: 400; }
+.times { display: flex; flex-wrap: wrap; gap: 5px; }
+.timeChip { font-size: 11px; padding: 2px 8px; border-radius: 99px; background: var(--bg-surface); color: var(--text-secondary); font-weight: 500; border: 0.5px solid var(--border); }
+.timeChipDone { background: var(--green-light); color: var(--green); border-color: rgba(29,158,117,0.2); }
+.chevron { color: var(--text-hint); transition: transform 0.2s; display: flex; padding: 4px; }
+.doseRow { display: flex; gap: 8px; padding: 0 16px 12px; flex-wrap: wrap; }
+.doseBtn { display: flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 500; padding: 7px 12px; border-radius: 99px; border: 0.5px solid var(--border-md); background: var(--bg); color: var(--text-secondary); transition: background 0.15s, border-color 0.15s, color 0.15s, transform 0.1s; }
+.doseBtn:hover { background: var(--bg-surface); }
+.doseBtn:active { transform: scale(0.96); }
+.doseBtnDone { background: var(--green-light); border-color: rgba(29,158,117,0.25); color: var(--green); animation: checkPop 0.3s ease; }
+.doseBtnCheck { display: flex; align-items: center; justify-content: center; width: 16px; height: 16px; }
+.details { padding: 12px 16px 14px; border-top: 0.5px solid var(--border); display: flex; flex-direction: column; gap: 10px; animation: fadeUp 0.2s ease both; }
+.detailNote { font-size: 13px; color: var(--text-secondary); display: flex; align-items: flex-start; gap: 6px; line-height: 1.4; }
+.detailRow { display: flex; gap: 24px; }
+.detailItem { display: flex; flex-direction: column; gap: 2px; }
+.detailLabel { font-size: 11px; color: var(--text-hint); text-transform: uppercase; letter-spacing: 0.06em; }
+.detailValue { font-size: 14px; font-weight: 500; color: var(--text-primary); }
